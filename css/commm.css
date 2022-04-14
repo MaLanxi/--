@@ -117,17 +117,17 @@ float: left;
     width: 1894px;
     background-color: #C6B5A5;
     margin-top: 30px;
-    float: left;
+    /* float: left; */
+    position: relative;
 }
 .dd {
     width: 200px;
     height: 641px;
     background-color: #8FA2B0;
-   margin-left: 206px; 
-/*    position: fixed;
-    top: 120px;
-    left: 100px; */
-    float: left; 
+   /* margin-left: 50px;  */
+    position: absolute;
+    top: 50px;
+    left: 100px;  
 }
 .dd ul li {
     width: 135px;
@@ -149,8 +149,16 @@ float: left;
     color: #cfb760;
 }
 .dt {
-    width: 200px;
-    height: 200px;
+    /* width: 971px; */
+    width: calc(971 * 3);
+    height: 340px;
     background-color: #ee2132;
-    /* float: left; */
+    float: left;
+    position: absolute;
+    left: 230px;
+    top: 50px;
+}
+.dt img {
+    width: 971px;
+    height: 340px;
 }
