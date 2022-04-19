@@ -3,11 +3,14 @@
     height: 200px;
     background-color:whitesmoke;
     margin-top: 50px;
+    /* position: relative; */
+    overflow: hidden;
 }
 .nav-left {
     width: 152px;
-    height: 336px;
-    background-color: blue;
+    height: 500px;
+    background-color: white;
+    float: left;
 }
 .nav-left ul li {
     margin-top: 20px;
@@ -24,3 +27,83 @@
     width: 70px;
     height: 40px;
 }
+.cent {
+    width: 1300px;
+    height: 400px;
+    background-color: white;
+    float: left;
+   /*   */
+}
+.cent span {
+    display: block;
+    /* margin-left: 10px; */
+    position: absolute;
+    left: 200px;
+}
+.cent h1 {
+    display: block;
+    /* margin-left: 10px; */
+    position: absolute;
+    left: 200px;
+}
+.cent img {
+    display: block;
+    /* margin-left: 10px; */
+    position: absolute;
+    left: 200px;
+}
+#name {
+    position: absolute;
+    left:250px ;
+    top: 240px;
+}
+#date {
+    position: absolute;
+    left:250px ;
+    top: 260px;
+}
+.focus {
+    width: 80px;
+    height: 34px;
+    border-radius: 40px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 400px;
+}
+.share {
+    width: 887px;
+    height: 96px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 300px;
+    top:400px ;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 96px;
+}
+.share p {
+    font-family: '微软雅黑';
+    font-size: 20px;
+    color: orange;
+}
+.art-start {
+    width: 935px;
+    position: absolute;
+    left: 0px;
+}
+.art-start img {
+    /* position: absolute; */
+    /* left: 20px; */
+}
+#decipt {
+    /* display: block; */
+    width: 353px;
+    height: 30px;
+    background-color: orange;
+}
+/* .art-start h3 {
+    position: absolute;
+    left:20px ;
+    top: 1700px;
+    font-style: bold;
+} */
