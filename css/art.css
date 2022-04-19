@@ -1,5 +1,26 @@
 .art {
     width: 1920px;
     height: 200px;
-    background-color:red;
+    background-color:whitesmoke;
+    margin-top: 50px;
+}
+.nav-left {
+    width: 152px;
+    height: 336px;
+    background-color: blue;
+}
+.nav-left ul li {
+    margin-top: 20px;
+}
+.nav-left ul li span {
+    font-family: "微软雅黑";
+    font-size: larger;
+    color: chartreuse;
+}
+.nav-left ul li span :hover {
+    color: pink;
+}
+.nav-left ul li img {
+    width: 70px;
+    height: 40px;
 }
