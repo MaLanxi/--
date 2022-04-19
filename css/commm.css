@@ -150,15 +150,122 @@ float: left;
 }
 .dt {
     /* width: 971px; */
-    width: calc(971 * 3);
+    width: calc(600px * 3);
     height: 340px;
     background-color: #ee2132;
     float: left;
     position: absolute;
     left: 230px;
-    top: 50px;
+    top: 10px;
+    overflow: hidden;
+    animation-name: mo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+    animation-fill-mode: backwards;
+}
+@keyframes mo {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-700px);
+    }
 }
 .dt img {
-    width: 971px;
+    width: 600px;
     height: 340px;
+    float: left;
+    /* overflow: hidden; */
+}
+.wave {
+    width: 291px;
+    height: 332px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 1000px;
+}
+.log {
+    width: 237px;
+    height: 52px;
+    background-color: greenyellow;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 25px;
+    position: absolute;
+    top: 200px;
+    right: 30px;
+}
+.ac {
+    width: 300px;
+    height: 20px;
+    background-color: #ee2132;
+    position: absolute;
+    left: 300px;
+    top: 450px;
+}
+.dong {
+    width: 60px;
+    height: 50px;
+    margin: 1px yellow;
+    background-color: #c4f817;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.guan {
+    width: 615px;
+    height: 260px;
+    /* background-color: rgb(81, 24, 227); */
+    position: absolute;
+    left: 650px;
+    top: 450px;
+}
+.hr {
+    margin: 2px;
+    color: #ee2132;
+}
+.mess {
+    width: 1500px;
+    /* height: 00px; */
+    background-color: #7f7777;
+    position: absolute;
+    top: 870px;
+    left: 300px;
+}
+.mess img {
+    width: 300px;
+    height: 300px;
+}
+.art {
+    width: 96px;
+    height: 32px;
+    background-color: #c4f817;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 32px;
+    /* float: left; */
+}
+#clik {
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+.te p {
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    font-family: '微软雅黑';
+    font-size: larger;
+    text-indent: 4em;
+}
+.te a {
+    position: absolute;
+    left: 300px;
+    top: 40px;
+    font-family: '微软雅黑';
+    font-size: larger;
+    text-indent: 4em;
+    color: #c4f817;
 }
